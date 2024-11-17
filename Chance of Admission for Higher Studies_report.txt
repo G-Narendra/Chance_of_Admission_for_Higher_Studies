@@ -1,0 +1,39 @@
+Final Report
+Objective:
+To predict the likelihood of graduate admission based on applicants' academic and profile features using a linear regression model.
+
+Dataset Overview:
+The dataset consists of 400 entries with features including GRE Score, TOEFL Score, University Rating, SOP strength, LOR strength, CGPA, and Research experience.
+
+Methodology:
+
+Data Import and Exploration:
+
+Loaded the dataset using Pandas.
+Inspected the first few rows and summarized the dataset using info() and describe() methods.
+Data Preprocessing:
+
+Identified Chance of Admit as the target variable (y).
+Selected remaining features as predictors (X), excluding Serial No.
+Train-Test Split:
+
+Split the data into training (70%) and testing (30%) sets using train_test_split from sklearn.model_selection.
+Model Selection and Training:
+
+Chose Linear Regression as the model.
+Trained the model on the training data (X_train and y_train).
+Model Prediction:
+
+Predicted the Chance of Admit for the test set (X_test).
+Generated a prediction array y_pred.
+Model Evaluation:
+
+Evaluated the model using:
+Mean Absolute Error (MAE): 0.044
+Mean Absolute Percentage Error (MAPE): 0.076
+Mean Squared Error (MSE): 0.004
+Results:
+The linear regression model shows a reasonable performance with a low MAE and MAPE, indicating that the predictions are close to the actual values. The model can effectively be used to predict the chance of admission based on the provided features.
+
+Conclusion:
+The project successfully developed a predictive model to estimate graduate admission chances. Future improvements could include exploring more complex models, feature engineering, and hyperparameter tuning to enhance predictive performance.

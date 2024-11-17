@@ -1,0 +1,22 @@
+Introduction to the Dataset
+The dataset used in this project is titled "Admission Chance," sourced from a GitHub repository. It contains information about 400 applicants to graduate programs. The dataset includes the following columns:
+
+Serial No: A unique identifier for each applicant.
+GRE Score: The applicant's GRE test score.
+TOEFL Score: The applicant's TOEFL test score.
+University Rating: A rating of the university (1 to 5).
+SOP: Statement of Purpose strength (1.0 to 5.0).
+LOR: Letter of Recommendation strength (1.0 to 5.0).
+CGPA: Undergraduate GPA (on a scale of 10).
+Research: Whether the applicant has research experience (0 or 1).
+Chance of Admit: The likelihood of the applicant being admitted (0.0 to 1.0).
+Project Description
+The project aims to develop a predictive model to estimate the "Chance of Admit" for applicants based on their academic and profile features. This involves the following steps:
+
+Data Import and Exploration: Load the dataset and perform initial data inspection.
+Data Preprocessing: Define the target variable y (Chance of Admit) and features X (all other relevant columns).
+Train-Test Split: Split the dataset into training (70%) and testing (30%) sets.
+Model Selection and Training: Use linear regression to train the model on the training data.
+Model Prediction: Predict the Chance of Admit for the test data.
+Model Evaluation: Assess the model's performance using metrics such as Mean Absolute Error (MAE), Mean Absolute Percentage Error (MAPE), and Mean Squared Error (MSE).
+This project provides insights into how different factors influence admission chances and helps in making data-driven predictions for future applicants.
